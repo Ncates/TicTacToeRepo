@@ -17,7 +17,7 @@ import javax.swing.SwingUtilities;
 
 public class TicTacToeServer extends JFrame
 {
-private String[] board = new String[ 9 ]; // tic-tac-toe board
+private String[] board = new String[ 9 ]; // tic-tac-toe board 
 private JTextArea outputArea; // for outputting moves
 private Player[] players; // array of Players
 private ServerSocket server; // server socket to connect with clients

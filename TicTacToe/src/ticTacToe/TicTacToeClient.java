@@ -20,7 +20,7 @@ import java.util.Scanner;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 
-public class TicTacToeClient extends JFrame implements Runnable
+public class TicTacToeClient extends JFrame implements Runnable 
 {
 private JTextField idField; // textfield to display player's mark
 private JTextArea displayArea; // JTextArea to display output
